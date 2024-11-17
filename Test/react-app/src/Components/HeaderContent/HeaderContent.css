@@ -1,0 +1,25 @@
+#navcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+  }
+  
+  #navcontent div {
+    display: flex;
+    gap: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #navcontent {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    #navcontent div {
+      gap: 10px;
+    }
+  }
+  
